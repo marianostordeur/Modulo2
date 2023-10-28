@@ -1,0 +1,56 @@
+* {
+  border: 1px red outset;
+  /* border-color: blue;
+  border-width: 2px;
+  border-style: dotted; */
+}
+
+body {
+  padding: 30px;
+}
+
+ul { 
+  margin: 20px 0px 0px 0px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 2px;
+}
+
+input:focus {
+  background-color: brown;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.hover-selector:hover {
+  background-color: red;
+}
+
+.pseudo-clases a:link {
+  color: black;
+}
+
+.pseudo-clases a:visited {
+  color: red;
+}
+
+.pseudo-clases a:active {
+  color: blueviolet;
+}
+
+/* .first-letter::after {
+  content: url("../images/gatito-lindo.jpg");
+} */
+
+.first-line::first-line {
+  color: aqua;
+}
+
+.first-letter::first-letter {
+  color: pink;
+}
+
+.letter-black {
+  color: black;
+}
+
